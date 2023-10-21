@@ -21,6 +21,13 @@
     margin-top: 2%;
     margin-left: 50%;
 }
-.textoInfo h1{
-    
+.contenedorInfe{
+    background-color: #B0B8BA;
+   
+}
+.contenedorInfe dl dt{
+    display: inline-block;
+}
+.contenedorInfe dl dd{
+    display: inline-block;
 }
