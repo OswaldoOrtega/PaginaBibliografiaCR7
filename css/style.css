@@ -1,0 +1,9 @@
+#FondoBarraNav{
+    background-color: black;
+}
+#TextoBarraNav{
+    color: white;
+}
+#TextoBarraNav:hover{
+    color: chocolate;
+}
