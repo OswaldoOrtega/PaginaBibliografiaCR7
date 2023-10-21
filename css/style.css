@@ -7,8 +7,20 @@
 #TextoBarraNav:hover{
     color: chocolate;
 }
-@media (max-width: 768px) {
-    .nav-item {
-      margin: 0 auto; /* Estilo específico para pantallas de 768px o menos */
-    }
-  }
+.contenedor{
+    background-color: #D9D9D9;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #c1{
+    background-color: aqua;
+}
+#c2{
+    background-color: tomato;
+} */
+.textoInfo{
+    margin-top: 2%;
+    margin-left: 50%;
+}
+.textoInfo h1{
+    
+}
