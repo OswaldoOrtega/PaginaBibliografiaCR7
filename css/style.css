@@ -7,3 +7,8 @@
 #TextoBarraNav:hover{
     color: chocolate;
 }
+@media (max-width: 768px) {
+    .nav-item {
+      margin: 0 auto; /* Estilo específico para pantallas de 768px o menos */
+    }
+  }
