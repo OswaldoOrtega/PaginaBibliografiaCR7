@@ -25,9 +25,6 @@
     background-color: #B0B8BA;
    
 }
-.contenedorInfe dl dt{
-    display: inline-block;
-}
-.contenedorInfe dl dd{
-    display: inline-block;
+.margeninfo{
+    margin-left: 24%;
 }
