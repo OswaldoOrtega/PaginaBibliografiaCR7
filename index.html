@@ -23,13 +23,13 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto"><!--con el mx-auto pude hacer que la lista se acomodara en medio de la barra de navegacion-->
                     <li class="nav-item  mx-1">
-                        <a id="TextoBarraNav" class="nav-link active" aria-current="page" href="#">Cr7</a>
+                        <a id="TextoBarraNav" class="nav-link active" aria-current="page" href="#cr7">Cr7</a>
                       </li>
                       <li  class="nav-item mx-2">
-                        <a id="TextoBarraNav" class="nav-link" href="#">Historia</a>
+                        <a id="TextoBarraNav" class="nav-link" href="#historia">Historia</a>
                       </li>
                       <li class="nav-item  mx-1">
-                        <a id="TextoBarraNav" class="nav-link" href="#">Trayectoria</a>
+                        <a id="TextoBarraNav" class="nav-link" href="#trayectoria">Trayectoria</a>
                       </li>
                 </ul>
                 <span class="navbar-text mx-5">
@@ -46,10 +46,10 @@
     <!-- cuerpo donde ira todo el contenido -->
     <main>
          <!-- Este es el contenedor de la informacion que va en gris -->
-        <div class= "contenedor " class="container-fluid">
+        <div id="cr7" class= "contenedor " class="container-fluid">
            <!-- se dividio en 2 columnas para poner la foto y el texto en cada una -->
                 <div class="row row-cols-2">
-                  <div class="col" >
+                  <div class="col " >
                     <div class="textoInfo">
                         <h1>Critiano Ronaldo</h1>
                         <h4>Cistiano Ronaldo Dos </h4>
@@ -57,8 +57,8 @@
                         <h3 >2003 · 2023</h3>
                     </div>
                 </div>
-                  <div class="col mx-auto " style="width: 600px;" >
-                    <img class="img-fluid pt-4" src="img/ImgCaracr7.png" alt="">
+                  <div class="col " >
+                    <img class="img-fluid pt-4 ps-5 " src="img/ImgCaracr7.png" alt="">
                 </div>
                 </div>
           </div>
@@ -72,14 +72,14 @@
               <div class="col" style="width: 50px;" >
                 <img src="Iconos/icons8-linea-vertical-50.png" alt="">
               </div>
-              <div class="col text-start"style="width: 13%;" >
+              <div class="col text-start "style="width: 13%;" >
                 <dt>Lugar de nacimiento</dt>
                 <dd  >Funchal (Portugal)</dd>
               </div>
               <div class="col" style="width: 50px;" >
                 <img src="Iconos/icons8-linea-vertical-50.png" alt="">
               </div>
-              <div class="col text-start" style="width: 13%;" >
+              <div class="col text-start " style="width: 13%;" >
                 <dt>Año de nacimiento</dt>
                 <dd>05/02/1985</dd>
               </div>
@@ -87,7 +87,7 @@
             </div>
           </div>
           <!-- se realizara la parte donde ira una tabla con informacion -->
-          <div class="row row-cols-2">
+          <div id="historia" class="row row-cols-2">
             <div class="col" style="width: 25%;">
                 <div class="container-fluid tablainfo ms-3 mt-5">
                     <div class="container-fluid tituloTabla mt-2 text-center">
@@ -99,6 +99,7 @@
                     </div>
                     <aside>
                         <div class="container-fluid">
+                           <!-- tabla donde se encuentra info personal -->
                           <table>
                             <tr>
                               <th>Nombre</th>
@@ -149,14 +150,101 @@
         </div>
         
         <!-- Aqui va la trayectoria -->
-          
+
+        <section id="trayectoria">
+          <h1 class="text-center">Trayectoria</h1>
+          <section class="slider-container">
+            <div class="slider-item">
+             <img src="img/img1Slider.jpg" alt="">
+            </div>
+            <div class="slider-item">
+             <img src="img/imgSlider2.jpg" alt="">
+            </div>
+            <div class="slider-item">
+             <img src="img/img3slider.jpg" alt="">
+            </div>
+            <div class="slider-item">
+             <img src="img/img4slider.jpg" alt="">
+            </div>
+            <div class="slider-item">
+             <img src="img/img5slider.jpg" alt="">
+            </div>
+            <div class="slider-item">
+             <img src="img/img6slider.jpg" alt="">
+            </div>
+            <div class="slider-item">
+              <img src="img/ImgCaracr7.png" alt="">
+             </div>
+            <!-- Aqui termina toda la parte del carrusel -->
+
+             <!-- Cards -->
+           </section>
+           <div class="container my-2 text-center fs-3 text fw-bold">
+            <div class="row">
+             
+              <div class="col-lg-3 col-md-6 col-sm-12 ">
+                <div class="card ">
+                  <p class="card-text ">Sporting C.P</p>
+                <img src="Iconos/LogoSporting-225.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">2002-2003</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                  <p class="card-text fs-4 text fw-bold">Manchester United F.C</p>
+                <img src="Iconos/LogoManchesterUnited-removebg-preview.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">2003-2009</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                  <p class="card-text fs-3 text fw-bold">Real Madrid</p>
+                <img src="Iconos/LogoRealMadrid-removebg-preview.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">2009-2018</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                  <p class="card-text fs-3 text fw-bold">Juventus de Turín</p>
+                <img src="Iconos/LogoJuventos-225.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">2018-2021</p>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </section>
+         
           
     </main>
 
     <!-- pie de pagina -->
-    <footer>
-
+    <footer class="d-flex justify-content-between bg-black">
+      <div>
+        <p class ="copy">Privacy Policy</p>
+      </div>
+      <div>
+        <p class ="copy">&copy Cristiano Ronaldo, All Rights Reserved</p>
+      </div>
+      
+      <div>
+        <img src="Iconos/icons8-twitter-48.png" alt="">
+        <img src="Iconos/icons8-facebook-100.png" alt="">
+        <img src="Iconos/icons8-instagram-50.png" alt="">
+      </div>
+    
     </footer>
+    
+    
+    
+    
 
 
     <!-- link para el javaScrip -->
