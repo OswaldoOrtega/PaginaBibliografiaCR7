@@ -1,6 +1,4 @@
-#FondoBarraNav{
-    background-color: black;
-}
+
 #TextoBarraNav{
     color: white;
 }
@@ -27,6 +25,7 @@
 }
 .margeninfo{
     margin-left: 24%;
+    
 }
 .tablainfo{
     

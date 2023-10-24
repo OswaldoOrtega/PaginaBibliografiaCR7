@@ -14,8 +14,8 @@
     <!-- Cabeza de la pagina -->
     <header>
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-lg bg-black"><!--con bg black pinto el nav bar-->
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-black sticky-top"><!--con bg black pinto el nav bar-->
+            <div class="container-fluid ">
                 <a  id="TextoBarraNav" class="navbar-brand fw-bold font-monospace fs-4 " href="https://www.cristianoronaldo.com/#cr7">CRISTIANO RONALDO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
                         <h3 >2003 · 2023</h3>
                     </div>
                 </div>
-                  <div class="col mx-auto" style="width: 600px;" >
+                  <div class="col mx-auto " style="width: 600px;" >
                     <img class="img-fluid pt-4" src="img/ImgCaracr7.png" alt="">
                 </div>
                 </div>
@@ -65,21 +65,21 @@
         <!-- Contenedor para la parte inferior de la informacion de cr7 se hizo con 5 columnas -->
           <div class= "contenedorInfe py-3" class="container-fluid ">
             <div class="row row-cols-5">
-              <div class="col text-start margeninfo" style="width: 65px;" >
+              <div class="col text-start margeninfo" style="width: 5%;" >
                 <dt>Posición</dt>
                 <dd >Delantero</dd>
               </div>
               <div class="col" style="width: 50px;" >
                 <img src="Iconos/icons8-linea-vertical-50.png" alt="">
               </div>
-              <div class="col text-start"style="width: 179px;" >
+              <div class="col text-start"style="width: 13%;" >
                 <dt>Lugar de nacimiento</dt>
                 <dd  >Funchal (Portugal)</dd>
               </div>
               <div class="col" style="width: 50px;" >
                 <img src="Iconos/icons8-linea-vertical-50.png" alt="">
               </div>
-              <div class="col text-start" style="width: 180px;" >
+              <div class="col text-start" style="width: 13%;" >
                 <dt>Año de nacimiento</dt>
                 <dd>05/02/1985</dd>
               </div>
@@ -87,44 +87,70 @@
             </div>
           </div>
           <!-- se realizara la parte donde ira una tabla con informacion -->
-          <div class="container-fluid tablainfo ms-3 mt-5"  style="width: 25%;">
-            <div class="container-fluid tituloTabla mt-2 text-center" style="width: 90%;">
-              <p>Cristiano Ronaldo</p>
-            </div>
-            <div class="container-fluid text-center">
-              <img src="img/ImgBarraInfo.jpg" alt="">
-            </div>
-            <div class="container-fluid tituloTabla mt-2 text-center" style="width: 90%;">
-              <p>Datos Personales</p>
-            </div>
-
-            <div class="container-fluid">
-              <div class="row row-cols-2">
-                <div class="col fw-bold "style="width: 25%;">
-                  <p>Nombre Completo</p>
-                  <p class="mt-3">Apodos</p>
-                  <br>
-                  <br>
-                  <p class="mt-5">Altura</p>
-                  <p>Peso</p>
-                  <p>Pareja</p>
-                  <p>Firma</p>
-                </div>
-                <div class="col "style="width: 65%;" >
-                  <p>Cristiano Ronaldo Dos Santos Aveiro </p>
-                  <p>CR7 <br>
-                    El bicho<br>
-                    El comandante<br>
-                    Mister Champions<br>
-                    Super fly</p>
-                    <p>1,87 m (6 ’ 2 ’)</p>
-                    <p>83 kg (183 lb)</p>
-                    <p>Georgina Rodriíguez</p>
-                    <img class="text-start" src="img/firma.webp" alt="">
+          <div class="row row-cols-2">
+            <div class="col" style="width: 25%;">
+                <div class="container-fluid tablainfo ms-3 mt-5">
+                    <div class="container-fluid tituloTabla mt-2 text-center">
+                        <p>Cristiano Ronaldo</p>
+                    </div>
+                    <img class="img-fluid container-fluid text-center" src="img/ImgBarraInfo.jpg" alt="">
+                    <div class="container-fluid tituloTabla mt-2 text-center">
+                        <p>Datos Personales</p>
+                    </div>
+                    <aside>
+                        <div class="container-fluid">
+                          <table>
+                            <tr>
+                              <th>Nombre</th>
+                              <td>Cristiano Ronaldo Dos Santos Aveiro</td>
+                            </tr>
+                            <tr>
+                              <th>Apodos</th>
+                              <td>CR7<br>El bicho<br>El comandante<br>Mister Champions<br>Super fly</td>
+                            </tr>
+                            <tr>
+                              <th>Altura</th>
+                              <td>1,87 m (6'2")</td>
+                            </tr>
+                            <tr>
+                              <th>Peso</th>
+                              <td>83 kg (183 lb)</td>
+                            </tr>
+                            <tr>
+                              <th>Pareja</th>
+                              <td>Georgina Rodríguez</td>
+                            </tr>
+                            <tr>
+                              <th>Firma</th>
+                              <td><img class="text-start img-fluid" src="img/firma.webp" alt=""></td>
+                            </tr>
+                        </table>
+                        </div>
+                    </aside>
+                   
                 </div>
               </div>
+            <div class="col text-start" style="width: 75%;">
+                <div class="container-fluid">
+                    <h1 class="text-center mt-5">Historia</h1>
+                    <p>Cristiano Ronaldo dos Santos Aveiro nació en São Pedro, Funchal, en la isla portuguesa de Madeira, y creció en el área de Santo António, uno de los barrios más pobres de Portugal. El nombre de Ronaldo lo lleva en homenaje al presidente de Estados Unidos, Ronald Reagan, ya que su madre era seguidora del actor y político estadounidense, por lo que eligió colocarle dicho nombre. Es el cuarto y más joven hijo del matrimonio entre Maria Dolores dos Santos Viveiros (n. 1953), una cocinera, y José Dinis Aveiro (1954-2005), un jardinero municipal y utilero. <br> <br>
+        
+                    Su bisabuela paterna, Isabel da Piedade, era de la isla de São Vicente, Cabo Verde. Tiene un hermano mayor, Hugo (n. 1975) y dos hermanas mayores, Elma (n. 1973) y Liliana Cátia "Katia" (n. 1977), quien es una cantante. Su madre reveló que cuando estaba embarazada de él quería abortarlo, debido a la adicción al alcohol que tenía su padre, la mala situación económica de la familia y porque ya tenía demasiados hijos. Sin embargo, su médico se negó a realizar el procedimiento. Cristiano se crio en una familia católica y en un hogar de malas condiciones, durmiendo en la misma habitación junto a todos sus hermanos. <br> <br>
+        
+                    Su padrino de bautizo, Fernão Barros Sousa, jugaba junto al padre de Cristiano, José Dinis Aveiro, en el Andorinha quien le pidió ser el padrino del recién nacido. El día de su bautizo, Sousa y el padre de Cristiano se encontraban jugando con su equipo en la localidad de Ribeira Brava, llegando tarde al bautizo, tanto que el sacerdote se negaba a imponerle el sacramento al recién nacido y estuvo a punto de cancelar el bautizo, sin embargo, tuvieron que convencerlo y, al final, decidió bautizado. Funchal (Madeira), ciudad donde creció Cristiano.<br> <br>
+        
+                    Comenzó a destacar entre sus compañeros en el Andorinha, su primer club, y donde ya venía jugando su padre quien trabajaba como utilero en el club. Tenía como ídolos a sus compatriotas Rui Costa, Fernando Couto y Luís Figo. Al cumplir los diez años, los grandes equipos de Madeira, C. S. Marítimo y C. D. Nacional, ya se habían interesado en su contratación. Finalmente se incorporó a las filas del Nacional, donde continuó con su progresión, convirtiéndose en una de las más brillantes promesas del fútbol portugués. <br> <br>
+        
+                    En 1997, realizó una prueba de tres días para fichar por el Sporting Clube de Portugal y finalmente dejó el C. D. Nacional para pasar a formar parte del club de Lisboa, la capital portuguesa, teniendo que mudarse solo y alejarse de su familia. Cristiano comentaría años después que esa fue una de las decisiones más difíciles de su vida, pero que mereció la pena para su carrera futbolística. En esos momentos el C. D. Nacional tenía una deuda de 450,000 escudos que quedaron saldados merced a la progresión y trayectoria cosechados por Ronaldo en su traspaso a Lisboa. 
+        
+                    Una vez finalizado el traslado, comenzó su nuevo periplo en la disciplina del club lisboeta a partir de la temporada 1997-98. En la cantera dirigida por Leonardo Véliz le asignaron, junto al resto de sus compañeros —entre ellos Ricardo Quaresma y Hugo Viana—, psicólogos, tutores personalizados que le orientaban en sus estudios y médicos que observaban su crecimiento físico, lo que contribuyó a su formación como persona y futbolista. Cuando tenía quince años, fue diagnosticado un problema de corazón que pudo haberle forzado a retirarse de jugar a fútbol. El Sporting de Lisboa informó a su madre sobre el problema, quien, consciente de los riesgos, le dio permiso para ir al hospital. A continuación, se sometió a una operación en la que se analizó a través de cirugía láser el área del corazón que estaba causando el problema. La cirugía se realizó por la mañana y Cristiano fue dado de alta del hospital la misma tarde y pocos días después volvió a entrenar sin problemas.</p>
+                </div>
             </div>
-          </div>
+        </div>
+        
+        <!-- Aqui va la trayectoria -->
+          
+          
     </main>
 
     <!-- pie de pagina -->
